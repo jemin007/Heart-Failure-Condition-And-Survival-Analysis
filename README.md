@@ -78,9 +78,9 @@ If you're interested in seeing our work in action or trying out the analysis you
 Make sure you have Python 3.x installed, along with Jupyter Notebook and necessary libraries like NumPy, pandas, Matplotlib, seaborn, scikit-learn, and TensorFlow.
 
 #### Step-by-Step Guide
-1. **Setup:** Clone our project repository or download the `Final_project_Report.ipynb` notebook to your computer.
+1. **Setup:** Clone our project repository or download the `Contribution_Heart_Failure_Prediction.ipynb` notebook to your computer.
 2. **Open the Notebook:** Navigate to the project folder, and run `jupyter notebook` in your command line or terminal to open the Jupyter interface.
-3. **Run the Analysis:** Open the `Final_project_Report.ipynb` file in Jupyter and execute the cells sequentially to view the methods, analysis, and results.
+3. **Run the Analysis:** Open the `Contribution_Heart_Failure_Prediction.ipynb` file in Jupyter and execute the cells sequentially to view the methods, analysis, and results.
 
 ### Conclusion
 This project demonstrates how combining multiple machine learning approaches and ensuring the explainability of their predictions can significantly enhance the accuracy and usability of predictive models in healthcare. Our efforts aim to support better clinical decisions and ultimately improve patient outcomes.
