@@ -53,3 +53,37 @@ Link: [https://paperswithcode.com/paper/malaria-parasite-detection-using-efficie
  If you find this work helpful for your study, please cite the paper as follows - </br></br>
  
 Mishra, S. (2022) “A Comparative Study for Time-to-Event Analysis and Survival Prediction for Heart Failure Condition using Machine Learning Techniques”, Journal of Electronics, Electromedical Engineering, and Medical Informatics, 4(3), pp. 115-134. doi: 10.35882/jeeemi.v4i3.225.
+
+## Team Contributions and Project Findings
+
+### Project Overview
+Our project aimed to improve the methods for predicting the survival of patients with heart failure - a serious condition where the heart struggles to pump blood effectively. Building on a foundation of previous studies that used traditional machine learning models, we explored advanced techniques to increase prediction accuracy and provide clearer explanations of the results for clinical use.
+
+### Key Contributions
+- **Neural Network Experimentation:** We implemented a Multi-Layer Perceptron (MLP), a type of neural network, to see if it could improve prediction accuracy over traditional models. While initial results were not as high as expected, this effort provided valuable insights into the challenges and potential of using neural networks for medical data.
+
+- **Enhanced Ensemble Model:** Recognizing the strengths and weaknesses of various machine learning models, we developed an ensemble method. This approach combines several models to balance their individual limitations, resulting in more reliable predictions.
+
+- **Making AI Decisions Understandable:** We employed a technique called LIME (Local Interpretable Model-agnostic Explanations), which helps explain in simple terms what factors the models are using to make predictions. For example, it might highlight how certain medical measurements, like blood creatinine levels or how well the heart pumps, influence the survival prediction.
+
+### Results and Key Findings
+- **Improved Prediction Accuracy:** Our ensemble model achieved better accuracy by effectively combining the predictive power of individual models.
+- **Transparent and Interpretable Results:** By using LIME, we made our model's predictions easier to understand, thus helping doctors and medical staff trust and effectively use AI recommendations.
+- **Clinical Insights:** Our analysis confirmed the critical role of certain health indicators in assessing heart failure risk. These insights can help healthcare providers focus on the most important factors when diagnosing and treating patients.
+
+### How to Run the Code
+If you're interested in seeing our work in action or trying out the analysis yourself, here are the steps to follow:
+
+#### Prerequisites
+Make sure you have Python 3.x installed, along with Jupyter Notebook and necessary libraries like NumPy, pandas, Matplotlib, seaborn, scikit-learn, and TensorFlow.
+
+#### Step-by-Step Guide
+1. **Setup:** Clone our project repository or download the `Final_project_Report.ipynb` notebook to your computer.
+2. **Open the Notebook:** Navigate to the project folder, and run `jupyter notebook` in your command line or terminal to open the Jupyter interface.
+3. **Run the Analysis:** Open the `Final_project_Report.ipynb` file in Jupyter and execute the cells sequentially to view the methods, analysis, and results.
+
+### Conclusion
+This project demonstrates how combining multiple machine learning approaches and ensuring the explainability of their predictions can significantly enhance the accuracy and usability of predictive models in healthcare. Our efforts aim to support better clinical decisions and ultimately improve patient outcomes.
+
+### Acknowledgements
+We extend our gratitude to all team members, mentors, and contributors who provided expertise and data, making this contribution possible.
